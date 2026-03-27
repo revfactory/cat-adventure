@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/cat-adventure/',
   root: 'src',
   build: {
     outDir: '../docs',
