@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <rect x="2" y="2" width="296" height="76" rx="8" fill="white" opacity="0.95" stroke="#2C3E50" stroke-width="2"/>
+  <rect x="4" y="4" width="292" height="72" rx="7" fill="none" stroke="#4ECDC4" stroke-width="1"/>
+  <!-- Cat paw decorations in corners -->
+  <g fill="#FF8C42" opacity="0.3">
+    <circle cx="14" cy="12" r="3"/>
+    <circle cx="10" cy="9" r="1.5"/>
+    <circle cx="14" cy="7" r="1.5"/>
+    <circle cx="18" cy="9" r="1.5"/>
+    <circle cx="286" cy="68" r="3"/>
+    <circle cx="282" cy="65" r="1.5"/>
+    <circle cx="286" cy="63" r="1.5"/>
+    <circle cx="290" cy="65" r="1.5"/>
+  </g>
+  <!-- Triangle indicator (continue) -->
+  <polygon points="280,55 285,60 280,65" fill="#2C3E50" opacity="0.5"/>
+</svg>

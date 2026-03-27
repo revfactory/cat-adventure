@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 24">
+  <g id="obj-spring-pad">
+    <!-- Base -->
+    <rect x="4" y="18" width="32" height="6" rx="2" fill="#E74C3C" stroke="#C0392B" stroke-width="1"/>
+    <!-- Warning stripes -->
+    <g fill="#F1C40F" opacity="0.5">
+      <rect x="8" y="19" width="4" height="4"/>
+      <rect x="16" y="19" width="4" height="4"/>
+      <rect x="24" y="19" width="4" height="4"/>
+    </g>
+    <!-- Spring coil -->
+    <path d="M12 18 L14 14 L10 12 L14 10 L10 8 L14 6 L12 4" fill="none" stroke="#BDC3C7" stroke-width="2" stroke-linecap="round"/>
+    <path d="M28 18 L26 14 L30 12 L26 10 L30 8 L26 6 L28 4" fill="none" stroke="#BDC3C7" stroke-width="2" stroke-linecap="round"/>
+    <!-- Top plate -->
+    <rect x="6" y="2" width="28" height="4" rx="2" fill="#F1C40F" stroke="#D4AC0D" stroke-width="1"/>
+    <!-- Up arrow -->
+    <polygon points="20,1 16,4 24,4" fill="#E74C3C" opacity="0.6"/>
+  </g>
+</svg>

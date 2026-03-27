@@ -1,0 +1,427 @@
+/* ============================================
+   냥이의 도시 대모험 — 공통 CSS 애니메이션
+   ============================================ */
+
+/* --- 캐릭터 호흡 (idle) --- */
+@keyframes cat-breathe {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(1.03); }
+}
+.cat-idle {
+  animation: cat-breathe 2s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+
+/* --- 달리기 바운스 --- */
+@keyframes cat-run {
+  0% { transform: translateY(0); }
+  25% { transform: translateY(-2px); }
+  50% { transform: translateY(0); }
+  75% { transform: translateY(-1px); }
+  100% { transform: translateY(0); }
+}
+.cat-running {
+  animation: cat-run 0.3s steps(4) infinite;
+}
+
+/* --- 꼬리 흔들기 --- */
+@keyframes tail-wag {
+  0%, 100% { transform: rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+}
+.cat-tail {
+  transform-box: fill-box;
+  transform-origin: bottom left;
+  animation: tail-wag 1s ease-in-out infinite;
+}
+
+/* --- 꼬리 빠른 흔들기 (기쁨) --- */
+@keyframes tail-wag-fast {
+  0%, 100% { transform: rotate(-15deg); }
+  50% { transform: rotate(15deg); }
+}
+.cat-tail-happy {
+  transform-box: fill-box;
+  transform-origin: bottom left;
+  animation: tail-wag-fast 0.4s ease-in-out infinite;
+}
+
+/* --- 아이템 반짝임 --- */
+@keyframes item-sparkle {
+  0%, 100% { opacity: 1; filter: brightness(1); }
+  50% { opacity: 0.8; filter: brightness(1.5); }
+}
+.collectible {
+  animation: item-sparkle 1.5s ease-in-out infinite;
+}
+
+/* --- 아이템 부유 --- */
+@keyframes item-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+.item-floating {
+  animation: item-float 2s ease-in-out infinite;
+}
+
+/* --- 피격 깜빡임 --- */
+@keyframes hurt-flash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+.cat-hurt {
+  animation: hurt-flash 0.1s linear 15;
+}
+
+/* --- 점프 상승 --- */
+@keyframes cat-jump {
+  0%, 100% { transform: scaleY(1.1) translateY(0); }
+  50% { transform: scaleY(1.1) translateY(-2px); }
+}
+.cat-jumping {
+  animation: cat-jump 0.4s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+
+/* --- 낙하 --- */
+@keyframes cat-fall {
+  0%, 100% { transform: scaleX(1.05) translateX(0); }
+  25% { transform: scaleX(1.05) translateX(-1px); }
+  75% { transform: scaleX(1.05) translateX(1px); }
+}
+.cat-falling {
+  animation: cat-fall 0.3s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+
+/* --- 벽 미끄러짐 --- */
+@keyframes cat-wall-slide {
+  0%, 100% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(-1px) translateY(1px); }
+  75% { transform: translateX(1px) translateY(1px); }
+}
+.cat-wall-sliding {
+  animation: cat-wall-slide 0.2s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+
+/* --- 벽 점프 --- */
+@keyframes cat-wall-jump {
+  0% { transform: scaleX(1.15) rotate(0deg); }
+  50% { transform: scaleX(1) rotate(15deg); }
+  100% { transform: scaleX(1) rotate(0deg); }
+}
+.cat-wall-jumping {
+  animation: cat-wall-jump 0.25s ease-out forwards;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+
+/* --- 사망 --- */
+@keyframes cat-die {
+  0% { transform: rotate(0deg); opacity: 1; }
+  100% { transform: rotate(720deg) translateY(100px); opacity: 0; }
+}
+.cat-dead {
+  animation: cat-die 1s ease-in forwards;
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+
+/* --- 착지 찌그러짐 --- */
+@keyframes landing-squash {
+  0% { transform: scaleY(0.7) scaleX(1.3); }
+  50% { transform: scaleY(1.05) scaleX(0.95); }
+  100% { transform: scaleY(1) scaleX(1); }
+}
+.cat-landing {
+  animation: landing-squash 0.15s ease-out forwards;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+
+/* --- 적 패트롤 방향전환 --- */
+@keyframes patrol {
+  0%, 49% { transform: scaleX(1); }
+  50%, 99% { transform: scaleX(-1); }
+  100% { transform: scaleX(1); }
+}
+.enemy-patrol {
+  animation: patrol 4s steps(1) infinite;
+}
+
+/* --- 까마귀 날개짓 --- */
+@keyframes crow-flap {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-15deg); }
+  75% { transform: rotate(15deg); }
+}
+.crow-wing-left {
+  transform-box: fill-box;
+  transform-origin: right center;
+  animation: crow-flap 0.5s ease-in-out infinite;
+}
+.crow-wing-right {
+  transform-box: fill-box;
+  transform-origin: left center;
+  animation: crow-flap 0.5s ease-in-out infinite reverse;
+}
+
+/* --- 까마귀 부유 비행 --- */
+@keyframes crow-fly {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.crow-flying {
+  animation: crow-fly 1.5s ease-in-out infinite;
+}
+
+/* --- 까마귀 급강하 --- */
+@keyframes crow-dive {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(40px, 60px) rotate(45deg); }
+}
+.crow-diving {
+  animation: crow-dive 0.4s ease-in forwards;
+}
+
+/* --- 적 경직 (별 이펙트 + 흔들림) --- */
+@keyframes enemy-stunned {
+  0%, 100% { transform: translateX(0) rotate(0deg); }
+  10% { transform: translateX(-3px) rotate(-2deg); }
+  30% { transform: translateX(3px) rotate(2deg); }
+  50% { transform: translateX(-2px) rotate(-1deg); }
+  70% { transform: translateX(2px) rotate(1deg); }
+  90% { transform: translateX(-1px) rotate(0deg); }
+}
+.enemy-stunned {
+  animation: enemy-stunned 0.3s linear infinite;
+  filter: brightness(0.8);
+}
+
+/* --- 불독 침 흘리기 --- */
+@keyframes drool {
+  0% { transform: translateY(0); opacity: 0.6; }
+  100% { transform: translateY(8px); opacity: 0; }
+}
+.bulldog-drool {
+  animation: drool 2s ease-in infinite;
+}
+
+/* --- 보스 분노 맥동 --- */
+@keyframes boss-pulse {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.2) saturate(1.3); }
+}
+.boss-angry {
+  animation: boss-pulse 0.8s ease-in-out infinite;
+}
+
+/* --- 보스 돌진 예고 (바닥 긁기) --- */
+@keyframes boss-charge-warn {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  75% { transform: translateX(3px); }
+}
+.boss-charging {
+  animation: boss-charge-warn 0.15s linear 6;
+}
+
+/* --- 충격파 확산 --- */
+@keyframes shockwave-expand {
+  0% { transform: scale(0.3); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+.fx-shockwave {
+  animation: shockwave-expand 0.4s ease-out forwards;
+}
+
+/* --- 먼지 착지 --- */
+@keyframes dust-puff {
+  0% { transform: scale(0.5); opacity: 0.8; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+.fx-dust-land {
+  animation: dust-puff 0.3s ease-out forwards;
+}
+
+/* --- 먼지 달리기 --- */
+@keyframes dust-trail {
+  0% { transform: translateX(0) scale(0.8); opacity: 0.5; }
+  100% { transform: translateX(-20px) scale(0.3); opacity: 0; }
+}
+.fx-dust-run {
+  animation: dust-trail 0.4s ease-out forwards;
+}
+
+/* --- 반짝임 이펙트 --- */
+@keyframes sparkle-pop {
+  0% { transform: scale(0) rotate(0deg); opacity: 1; }
+  50% { transform: scale(1.2) rotate(90deg); opacity: 1; }
+  100% { transform: scale(0) rotate(180deg); opacity: 0; }
+}
+.fx-sparkle {
+  animation: sparkle-pop 0.6s ease-out forwards;
+}
+
+/* --- 물방울 튀김 --- */
+@keyframes water-splash {
+  0% { transform: translateY(0) scale(1); opacity: 0.7; }
+  100% { transform: translateY(-20px) scale(0.5); opacity: 0; }
+}
+.fx-water-splash {
+  animation: water-splash 0.5s ease-out forwards;
+}
+
+/* --- 충격 별 --- */
+@keyframes impact-star {
+  0% { transform: scale(0); opacity: 1; }
+  50% { transform: scale(1.3); opacity: 1; }
+  100% { transform: scale(0.8); opacity: 0; }
+}
+.fx-impact-star {
+  animation: impact-star 0.3s ease-out forwards;
+}
+
+/* --- 바람 줄 --- */
+@keyframes wind-sweep {
+  0% { transform: translateX(-100%); opacity: 0; }
+  20% { opacity: 0.4; }
+  80% { opacity: 0.4; }
+  100% { transform: translateX(100%); opacity: 0; }
+}
+.fx-wind-line {
+  animation: wind-sweep 1.5s linear infinite;
+}
+
+/* --- 별 무적 깜빡임 --- */
+@keyframes star-invincible {
+  0%, 100% { filter: brightness(1) hue-rotate(0deg); }
+  25% { filter: brightness(1.5) hue-rotate(90deg); }
+  50% { filter: brightness(1.2) hue-rotate(180deg); }
+  75% { filter: brightness(1.5) hue-rotate(270deg); }
+}
+.cat-invincible {
+  animation: star-invincible 0.5s linear infinite;
+}
+
+/* --- 하트 (UI) 획득 팝 --- */
+@keyframes heart-pop {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+.ui-heart-gain {
+  animation: heart-pop 0.3s ease-out;
+}
+
+/* --- 하트 (UI) 손실 흔들림 --- */
+@keyframes heart-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-2px); }
+  40% { transform: translateX(2px); }
+  60% { transform: translateX(-2px); }
+  80% { transform: translateX(1px); }
+}
+.ui-heart-lose {
+  animation: heart-shake 0.3s ease-out;
+}
+
+/* --- 점수 팝업 --- */
+@keyframes score-popup {
+  0% { transform: translateY(0) scale(0.5); opacity: 1; }
+  100% { transform: translateY(-30px) scale(1); opacity: 0; }
+}
+.ui-score-popup {
+  animation: score-popup 0.8s ease-out forwards;
+}
+
+/* --- 동료 구출 축하 --- */
+@keyframes rescue-celebrate {
+  0% { transform: scale(0) rotate(-180deg); opacity: 0; }
+  60% { transform: scale(1.2) rotate(10deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+.ally-rescued {
+  animation: rescue-celebrate 0.6s ease-out forwards;
+}
+
+/* --- 스프링 패드 반동 --- */
+@keyframes spring-bounce {
+  0% { transform: scaleY(1); }
+  30% { transform: scaleY(0.5); }
+  60% { transform: scaleY(1.2); }
+  100% { transform: scaleY(1); }
+}
+.spring-activated {
+  animation: spring-bounce 0.3s ease-out;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+
+/* --- 컨베이어 벨트 이동 --- */
+@keyframes conveyor-move {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-16px); }
+}
+.conveyor-belt {
+  animation: conveyor-move 0.3s linear infinite;
+}
+
+/* --- 크레인 추 흔들림 --- */
+@keyframes crane-swing {
+  0%, 100% { transform: rotate(-15deg); }
+  50% { transform: rotate(15deg); }
+}
+.crane-hook {
+  transform-box: fill-box;
+  transform-origin: top center;
+  animation: crane-swing 3s ease-in-out infinite;
+}
+
+/* --- 안테나 불빛 깜빡임 --- */
+@keyframes antenna-blink {
+  0%, 45%, 100% { opacity: 1; }
+  50%, 95% { opacity: 0.2; }
+}
+.antenna-light {
+  animation: antenna-blink 2s ease-in-out infinite;
+}
+
+/* --- 페이드 인/아웃 유틸리티 --- */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+.fade-in { animation: fade-in 0.3s ease-out forwards; }
+.fade-out { animation: fade-out 0.3s ease-out forwards; }
+
+/* --- 슬라이드 인 (UI) --- */
+@keyframes slide-in-top {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+@keyframes slide-in-bottom {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+.slide-in-top { animation: slide-in-top 0.4s ease-out forwards; }
+.slide-in-bottom { animation: slide-in-bottom 0.4s ease-out forwards; }
+
+/* --- 배경 패럴랙스 기본 --- */
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}

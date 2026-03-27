@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Nearby rooftop structures -->
+  <g fill="#5D6D7E">
+    <!-- Left building top -->
+    <rect x="0" y="420" width="120" height="180"/>
+    <rect x="10" y="400" width="20" height="25" fill="#7F8C8D"/>
+    <!-- Right building -->
+    <rect x="650" y="400" width="150" height="200"/>
+    <rect x="700" y="380" width="30" height="25" fill="#7F8C8D"/>
+  </g>
+  <!-- AC units -->
+  <g fill="#95A5A6">
+    <rect x="30" y="410" width="25" height="15" rx="2"/>
+    <rect x="70" y="415" width="20" height="12" rx="2"/>
+    <rect x="680" y="390" width="25" height="15" rx="2"/>
+  </g>
+  <!-- Satellite dishes -->
+  <g fill="none" stroke="#BDC3C7" stroke-width="1.5">
+    <path d="M150 410 Q160 395 170 410" />
+    <line x1="160" y1="400" x2="160" y2="420"/>
+    <path d="M750 400 Q760 385 770 400"/>
+    <line x1="760" y1="390" x2="760" y2="410"/>
+  </g>
+  <!-- Water tank (mid) -->
+  <g transform="translate(300 380)">
+    <rect x="0" y="20" width="4" height="40" fill="#7F8C8D"/>
+    <rect x="36" y="20" width="4" height="40" fill="#7F8C8D"/>
+    <rect x="-4" y="0" width="48" height="25" rx="3" fill="#5D6D7E" stroke="#4A5A6A" stroke-width="1"/>
+    <rect x="10" y="-3" width="20" height="5" rx="2" fill="#7F8C8D"/>
+  </g>
+  <!-- Clothesline -->
+  <path d="M120 440 Q260 450 400 440" fill="none" stroke="#BDC3C7" stroke-width="0.8" opacity="0.5"/>
+  <!-- Potted plants (rooftop garden) -->
+  <g>
+    <rect x="450" y="440" width="12" height="10" rx="2" fill="#A0844A"/>
+    <ellipse cx="456" cy="436" rx="8" ry="8" fill="#27AE60"/>
+    <rect x="480" y="442" width="10" height="8" rx="2" fill="#A0844A"/>
+    <ellipse cx="485" cy="439" rx="6" ry="6" fill="#2ECC71"/>
+    <rect x="510" y="438" width="14" height="12" rx="2" fill="#A0844A"/>
+    <ellipse cx="517" cy="432" rx="10" ry="10" fill="#27AE60"/>
+    <circle cx="515" cy="428" r="2.5" fill="#E74C3C"/>
+  </g>
+</svg>

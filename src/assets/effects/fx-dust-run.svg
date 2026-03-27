@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16">
+  <g id="fx-dust-run" opacity="0.5">
+    <ellipse cx="8" cy="12" rx="6" ry="3" fill="#C9A96E" opacity="0.4"/>
+    <circle cx="4" cy="10" r="2" fill="#D4B87A" opacity="0.5"/>
+    <circle cx="12" cy="8" r="1.5" fill="#C9A96E" opacity="0.6"/>
+    <circle cx="2" cy="6" r="1" fill="#D4B87A" opacity="0.3"/>
+    <circle cx="8" cy="5" r="0.8" fill="#C9A96E" opacity="0.3"/>
+    <circle cx="16" cy="10" r="1.2" fill="#C9A96E" opacity="0.4"/>
+  </g>
+</svg>

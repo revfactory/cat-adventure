@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Foreground grass -->
+  <rect x="0" y="540" width="800" height="60" fill="#2ECC71"/>
+  <rect x="0" y="540" width="800" height="10" fill="#27AE60"/>
+  <!-- Grass blades -->
+  <g stroke="#1E8449" stroke-width="1" opacity="0.4">
+    <line x1="20" y1="540" x2="18" y2="530"/><line x1="60" y1="540" x2="62" y2="528"/>
+    <line x1="120" y1="540" x2="118" y2="532"/><line x1="200" y1="540" x2="203" y2="529"/>
+    <line x1="300" y1="540" x2="298" y2="531"/><line x1="400" y1="540" x2="402" y2="528"/>
+    <line x1="500" y1="540" x2="497" y2="530"/><line x1="600" y1="540" x2="603" y2="529"/>
+    <line x1="700" y1="540" x2="698" y2="532"/><line x1="780" y1="540" x2="782" y2="530"/>
+  </g>
+  <!-- Foreground lamp post -->
+  <rect x="50" y="380" width="6" height="180" fill="#5D6D7E"/>
+  <rect x="42" y="374" width="22" height="8" rx="4" fill="#7F8C8D"/>
+  <ellipse cx="53" cy="378" rx="14" ry="8" fill="#F1C40F" opacity="0.25"/>
+  <circle cx="53" cy="378" r="5" fill="#F1C40F" opacity="0.5"/>
+  <!-- Fence -->
+  <g stroke="#6B4F10" stroke-width="2">
+    <line x1="300" y1="500" x2="550" y2="500"/>
+    <line x1="300" y1="520" x2="550" y2="520"/>
+  </g>
+  <g fill="#8B6914">
+    <rect x="300" y="490" width="4" height="40" rx="1"/>
+    <rect x="330" y="495" width="3" height="30" rx="1"/>
+    <rect x="360" y="495" width="3" height="30" rx="1"/>
+    <rect x="390" y="495" width="3" height="30" rx="1"/>
+    <rect x="420" y="495" width="3" height="30" rx="1"/>
+    <rect x="450" y="495" width="3" height="30" rx="1"/>
+    <rect x="480" y="495" width="3" height="30" rx="1"/>
+    <rect x="510" y="495" width="3" height="30" rx="1"/>
+    <rect x="546" y="490" width="4" height="40" rx="1"/>
+  </g>
+  <!-- Dandelions -->
+  <g>
+    <line x1="680" y1="540" x2="680" y2="520" stroke="#27AE60" stroke-width="1"/>
+    <circle cx="680" cy="518" r="4" fill="white" opacity="0.7"/>
+    <line x1="720" y1="540" x2="722" y2="525" stroke="#27AE60" stroke-width="1"/>
+    <circle cx="722" cy="523" r="3.5" fill="white" opacity="0.6"/>
+  </g>
+</svg>

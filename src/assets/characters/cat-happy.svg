@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 44">
+  <defs>
+    <linearGradient id="cat-body-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF8C42"/>
+      <stop offset="100%" stop-color="#E8792F"/>
+    </linearGradient>
+  </defs>
+  <g id="cat-happy">
+    <!-- Tail with heart shape -->
+    <g id="cat-tail-heart">
+      <path d="M18 30 Q10 28 8 22 Q6 16 10 12" fill="none" stroke="#FF8C42" stroke-width="3" stroke-linecap="round"/>
+      <!-- Heart at tail tip -->
+      <path d="M10 12 Q8 9 10 8 Q12 7 12 10 Q12 7 14 8 Q16 9 14 12 L12 14 Z" fill="#FF6B9D" transform="translate(-2 -2) scale(0.8)"/>
+    </g>
+    <!-- Back legs -->
+    <g id="cat-legs-back">
+      <rect x="17" y="35" width="5" height="7" rx="2.5" fill="#E06B1F"/>
+      <rect x="26" y="35" width="5" height="7" rx="2.5" fill="#E06B1F"/>
+      <ellipse cx="19.5" cy="42.5" rx="3" ry="1.5" fill="#FFF5E6"/>
+      <ellipse cx="28.5" cy="42.5" rx="3" ry="1.5" fill="#FFF5E6"/>
+    </g>
+    <!-- Body -->
+    <ellipse id="cat-body" cx="24" cy="30" rx="10" ry="7" fill="url(#cat-body-grad)"/>
+    <ellipse cx="24" cy="32" rx="6" ry="4" fill="#FFF5E6"/>
+    <!-- Front legs -->
+    <g id="cat-legs-front">
+      <rect x="17" y="34" width="4.5" height="7.5" rx="2.2" fill="#FF8C42"/>
+      <rect x="26.5" y="34" width="4.5" height="7.5" rx="2.2" fill="#FF8C42"/>
+      <ellipse cx="19.2" cy="42" rx="2.8" ry="1.5" fill="#FFF5E6"/>
+      <ellipse cx="28.8" cy="42" rx="2.8" ry="1.5" fill="#FFF5E6"/>
+    </g>
+    <!-- Head -->
+    <g id="cat-head">
+      <ellipse cx="24" cy="14" rx="11" ry="10" fill="#FF8C42"/>
+      <polygon points="15,8 12,1 18,5" fill="#FF8C42"/>
+      <polygon points="33,8 36,1 30,5" fill="#FF8C42"/>
+      <polygon points="15.5,7.5 13,2.5 17.5,5.5" fill="#FFB89A"/>
+      <polygon points="32.5,7.5 35,2.5 30.5,5.5" fill="#FFB89A"/>
+      <!-- Happy eyes ^_^ -->
+      <g id="cat-eyes-happy">
+        <path d="M16 13 Q19 10 22 13" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+        <path d="M26 13 Q29 10 32 13" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+      </g>
+      <ellipse cx="24" cy="17" rx="1.5" ry="1" fill="#FF6B9D"/>
+      <path d="M22 18.5 Q24 20.5 26 18.5" fill="none" stroke="#E06B1F" stroke-width="0.8"/>
+      <!-- Rosy cheeks (extra) -->
+      <circle cx="16" cy="17" r="2.5" fill="#FF6B9D" opacity="0.3"/>
+      <circle cx="32" cy="17" r="2.5" fill="#FF6B9D" opacity="0.3"/>
+      <g stroke="#E06B1F" stroke-width="0.5" opacity="0.7">
+        <line x1="12" y1="15" x2="17" y2="16"/>
+        <line x1="12" y1="17" x2="17" y2="17"/>
+        <line x1="31" y1="16" x2="36" y2="15"/>
+        <line x1="31" y1="17" x2="36" y2="17"/>
+      </g>
+      <!-- Sparkles around head -->
+      <g fill="#F1C40F" opacity="0.7">
+        <polygon points="6,5 7,7 9,7 7.5,8.5 8,10 6,9 4,10 4.5,8.5 3,7 5,7" transform="scale(0.5) translate(0 -4)"/>
+        <polygon points="6,5 7,7 9,7 7.5,8.5 8,10 6,9 4,10 4.5,8.5 3,7 5,7" transform="scale(0.5) translate(68 -4)"/>
+        <polygon points="6,5 7,7 9,7 7.5,8.5 8,10 6,9 4,10 4.5,8.5 3,7 5,7" transform="scale(0.4) translate(50 -10)"/>
+      </g>
+    </g>
+  </g>
+</svg>

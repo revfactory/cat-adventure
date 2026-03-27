@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <g id="item-milk">
+    <!-- Carton body -->
+    <rect x="8" y="8" width="16" height="20" rx="1.5" fill="white" stroke="#BDC3C7" stroke-width="0.8"/>
+    <!-- Top fold -->
+    <polygon points="8,8 16,4 24,8" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="0.8"/>
+    <!-- Label -->
+    <rect x="10" y="12" width="12" height="10" rx="1" fill="#3498DB"/>
+    <text x="16" y="18.5" text-anchor="middle" font-size="4" font-family="sans-serif" fill="white" font-weight="bold">MILK</text>
+    <!-- Cow spots -->
+    <circle cx="13" cy="20" r="1.5" fill="#2C3E50" opacity="0.3"/>
+    <circle cx="18" cy="19" r="1" fill="#2C3E50" opacity="0.3"/>
+    <!-- Shine -->
+    <rect x="20" y="10" width="2" height="14" rx="1" fill="white" opacity="0.3"/>
+  </g>
+</svg>

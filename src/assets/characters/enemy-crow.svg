@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 28">
+  <g id="enemy-crow">
+    <!-- Wings spread -->
+    <g id="crow-wings">
+      <!-- Left wing -->
+      <path d="M16 14 Q8 8 2 10 Q4 12 3 14 Q6 12 8 14 Q10 12 12 14 L16 14Z" fill="#2C3E50"/>
+      <path d="M16 14 Q8 8 2 10" fill="none" stroke="#1A252F" stroke-width="0.5"/>
+      <!-- Right wing -->
+      <path d="M16 14 Q24 8 30 10 Q28 12 29 14 Q26 12 24 14 Q22 12 20 14 L16 14Z" fill="#2C3E50"/>
+      <path d="M16 14 Q24 8 30 10" fill="none" stroke="#1A252F" stroke-width="0.5"/>
+    </g>
+    <!-- Body -->
+    <ellipse cx="16" cy="16" rx="6" ry="7" fill="#2C3E50"/>
+    <ellipse cx="16" cy="18" rx="4" ry="4" fill="#34495E"/>
+    <!-- Tail feathers -->
+    <path d="M14 22 L12 27 L14 25 L16 28 L18 25 L20 27 L18 22" fill="#1A252F"/>
+    <!-- Head -->
+    <g id="crow-head">
+      <circle cx="16" cy="8" r="5.5" fill="#2C3E50"/>
+      <!-- Beak -->
+      <polygon points="20,8 26,7 24,9" fill="#F39C12"/>
+      <line x1="20" y1="8" x2="25" y2="8" stroke="#E67E22" stroke-width="0.5"/>
+      <!-- Red eyes -->
+      <circle cx="18" cy="7" r="1.8" fill="#E74C3C"/>
+      <circle cx="18.3" cy="6.8" r="0.8" fill="#2C3E50"/>
+      <circle cx="18.8" cy="6.5" r="0.3" fill="#E74C3C" opacity="0.8"/>
+      <!-- Feather tuft -->
+      <path d="M13 4 Q14 2 15 4" fill="#1A252F"/>
+      <path d="M15 3 Q16 1 17 3" fill="#1A252F"/>
+    </g>
+    <!-- Feet (tucked) -->
+    <g fill="#F39C12">
+      <path d="M13 23 L12 25 M13 23 L13 25 M13 23 L14 25" stroke="#F39C12" stroke-width="0.5" fill="none"/>
+      <path d="M19 23 L18 25 M19 23 L19 25 M19 23 L20 25" stroke="#F39C12" stroke-width="0.5" fill="none"/>
+    </g>
+  </g>
+</svg>

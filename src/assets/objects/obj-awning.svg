@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 30">
+  <g id="obj-awning">
+    <!-- Frame -->
+    <line x1="0" y1="4" x2="80" y2="4" stroke="#7F8C8D" stroke-width="2"/>
+    <!-- Awning fabric -->
+    <path d="M0 4 Q10 20 20 4 Q30 20 40 4 Q50 20 60 4 Q70 20 80 4 L80 12 Q70 28 60 12 Q50 28 40 12 Q30 28 20 12 Q10 28 0 12 Z" fill="#E74C3C"/>
+    <path d="M0 4 Q10 20 20 4 Q30 20 40 4 Q50 20 60 4 Q70 20 80 4 L80 12 Q70 28 60 12 Q50 28 40 12 Q30 28 20 12 Q10 28 0 12 Z" fill="white" opacity="0.15"/>
+    <!-- Stripes -->
+    <g fill="white" opacity="0.3">
+      <path d="M10 6 Q10 16 10 10 Q15 18 20 10 L20 4 Q15 14 10 6Z"/>
+      <path d="M30 6 Q30 16 30 10 Q35 18 40 10 L40 4 Q35 14 30 6Z"/>
+      <path d="M50 6 Q50 16 50 10 Q55 18 60 10 L60 4 Q55 14 50 6Z"/>
+      <path d="M70 6 Q70 16 70 10 Q75 18 80 10 L80 4 Q75 14 70 6Z"/>
+    </g>
+    <!-- Support poles -->
+    <rect x="0" y="0" width="2" height="30" fill="#7F8C8D"/>
+    <rect x="78" y="0" width="2" height="30" fill="#7F8C8D"/>
+  </g>
+</svg>

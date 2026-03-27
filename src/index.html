@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=800, initial-scale=1.0" />
+  <title>냥이의 도시 대모험 — Meow City Adventure</title>
+  <link rel="stylesheet" href="./styles/game.css" />
+  <link rel="stylesheet" href="./styles/animations.css" />
+</head>
+<body>
+  <div id="game-container">
+    <svg id="game-svg" xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 800 600" width="800" height="600">
+      <!-- Background layers (parallax) -->
+      <g id="layer-bg-far"></g>
+      <g id="layer-bg-mid"></g>
+      <g id="layer-bg-near"></g>
+      <!-- Game world (camera-tracked) -->
+      <g id="game-world">
+        <g id="layer-platforms"></g>
+        <g id="layer-objects"></g>
+        <g id="layer-items"></g>
+        <g id="layer-npcs"></g>
+        <g id="layer-enemies"></g>
+        <g id="layer-player"></g>
+        <g id="layer-effects"></g>
+      </g>
+      <!-- HUD (fixed, not camera-tracked) -->
+      <g id="layer-hud"></g>
+      <!-- UI overlay -->
+      <g id="layer-ui"></g>
+    </svg>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
