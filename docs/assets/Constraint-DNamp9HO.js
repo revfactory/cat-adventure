@@ -1,0 +1,1 @@
+class r{constructor(s,e,t={}){this.bodyA=s,this.bodyB=e,this.stiffness=t.stiffness??1,this.damping=t.damping??0,this.breakForce=t.breakForce??1/0,this.isBroken=!1,this.accumulatedImpulse=0}solveVelocity(s){}solvePosition(s){}checkBreak(){return Math.abs(this.accumulatedImpulse)>this.breakForce?(this.isBroken=!0,!0):!1}}export{r as C};

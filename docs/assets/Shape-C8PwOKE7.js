@@ -1,0 +1,1 @@
+class e{constructor(r){this.type=r,this.body=null}getWorldVertices(){return[]}getNormals(){return[]}project(r){return{min:0,max:0}}getAABB(){return{min:{x:0,y:0},max:{x:0,y:0}}}computeArea(){return 0}computeInertia(r){return 0}}export{e as S};
