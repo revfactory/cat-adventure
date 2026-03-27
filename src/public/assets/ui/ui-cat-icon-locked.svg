@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <circle cx="12" cy="12" r="11" fill="#2C3E50" opacity="0.5"/>
+  <!-- Cat silhouette -->
+  <polygon points="7,10 5,4 9,7" fill="#1A252F" opacity="0.6"/>
+  <polygon points="17,10 19,4 15,7" fill="#1A252F" opacity="0.6"/>
+  <ellipse cx="12" cy="13" rx="7" ry="6" fill="#1A252F" opacity="0.6"/>
+  <!-- Question mark -->
+  <text x="12" y="16" text-anchor="middle" font-size="10" font-family="sans-serif" fill="#7F8C8D" font-weight="bold">?</text>
+</svg>

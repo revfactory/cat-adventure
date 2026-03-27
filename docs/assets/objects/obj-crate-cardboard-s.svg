@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <g id="obj-crate-cardboard-s">
+    <rect x="1" y="1" width="28" height="28" rx="2" fill="#C9A96E" stroke="#A0844A" stroke-width="1"/>
+    <!-- Tape -->
+    <rect x="12" y="1" width="6" height="28" fill="#BDA05A" opacity="0.5"/>
+    <!-- Flap lines -->
+    <line x1="1" y1="8" x2="29" y2="8" stroke="#A0844A" stroke-width="0.8"/>
+    <!-- Box text -->
+    <text x="15" y="20" text-anchor="middle" font-size="5" font-family="sans-serif" fill="#A0844A" opacity="0.5">BOX</text>
+    <!-- Crease -->
+    <path d="M8 12 L10 16" stroke="#A0844A" stroke-width="0.5" opacity="0.3"/>
+  </g>
+</svg>

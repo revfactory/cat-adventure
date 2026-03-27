@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="star-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F1C40F"/>
+      <stop offset="100%" stop-color="#F39C12"/>
+    </linearGradient>
+    <filter id="star-glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="item-star" filter="url(#star-glow)">
+    <!-- Star shape -->
+    <polygon points="16,3 19.5,11.5 28.5,12.5 22,18.5 23.5,27.5 16,23 8.5,27.5 10,18.5 3.5,12.5 12.5,11.5" fill="url(#star-grad)" stroke="#E67E22" stroke-width="0.5"/>
+    <!-- Inner shine -->
+    <polygon points="16,7 18,13 24,13.5 19.5,17.5 20.5,24 16,21 11.5,24 12.5,17.5 8,13.5 14,13" fill="#F7DC6F" opacity="0.6"/>
+    <!-- Eye (cute star) -->
+    <circle cx="14" cy="14" r="1.2" fill="#2C3E50"/>
+    <circle cx="18" cy="14" r="1.2" fill="#2C3E50"/>
+    <circle cx="14.3" cy="13.5" r="0.4" fill="white"/>
+    <circle cx="18.3" cy="13.5" r="0.4" fill="white"/>
+    <!-- Smile -->
+    <path d="M14 16 Q16 18 18 16" fill="none" stroke="#E67E22" stroke-width="0.8" stroke-linecap="round"/>
+  </g>
+</svg>

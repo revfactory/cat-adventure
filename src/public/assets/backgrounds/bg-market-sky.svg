@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="market-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#AED6F1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#market-sky)"/>
+  <!-- Afternoon sun -->
+  <circle cx="200" cy="80" r="35" fill="#F1C40F" opacity="0.7"/>
+  <!-- Clouds -->
+  <g fill="white" opacity="0.6">
+    <ellipse cx="400" cy="80" rx="65" ry="22"/>
+    <ellipse cx="440" cy="75" rx="50" ry="18"/>
+    <ellipse cx="100" cy="120" rx="50" ry="18"/>
+    <ellipse cx="650" cy="100" rx="55" ry="20"/>
+  </g>
+</svg>

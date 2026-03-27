@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 80">
+  <g id="obj-antenna">
+    <!-- Base -->
+    <rect x="8" y="70" width="14" height="10" rx="2" fill="#7F8C8D"/>
+    <!-- Main pole -->
+    <rect x="13" y="10" width="4" height="62" fill="#95A5A6" stroke="#7F8C8D" stroke-width="0.5"/>
+    <!-- Cross arms -->
+    <line x1="4" y1="20" x2="26" y2="20" stroke="#BDC3C7" stroke-width="2"/>
+    <line x1="6" y1="35" x2="24" y2="35" stroke="#BDC3C7" stroke-width="1.5"/>
+    <line x1="8" y1="50" x2="22" y2="50" stroke="#BDC3C7" stroke-width="1"/>
+    <!-- Diagonal braces -->
+    <line x1="15" y1="20" x2="4" y2="35" stroke="#BDC3C7" stroke-width="0.5"/>
+    <line x1="15" y1="20" x2="26" y2="35" stroke="#BDC3C7" stroke-width="0.5"/>
+    <!-- Top -->
+    <line x1="15" y1="0" x2="15" y2="12" stroke="#E74C3C" stroke-width="2"/>
+    <!-- Blinking light -->
+    <circle cx="15" cy="4" r="2.5" fill="#E74C3C"/>
+    <circle cx="15" cy="4" r="1.5" fill="#FF6B6B"/>
+    <!-- Signal waves -->
+    <g stroke="#E74C3C" stroke-width="0.5" fill="none" opacity="0.3">
+      <path d="M20 4 Q22 0 24 4"/>
+      <path d="M24 4 Q27 -2 30 4"/>
+    </g>
+  </g>
+</svg>

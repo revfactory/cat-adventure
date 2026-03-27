@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 12">
+  <defs>
+    <linearGradient id="metal-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#BDC3C7"/>
+      <stop offset="50%" stop-color="#95A5A6"/>
+      <stop offset="100%" stop-color="#7F8C8D"/>
+    </linearGradient>
+  </defs>
+  <g id="platform-metal">
+    <rect x="0" y="0" width="64" height="12" rx="1" fill="url(#metal-grad)"/>
+    <!-- Rivets -->
+    <g fill="#5D6D7E">
+      <circle cx="4" cy="3" r="1.5"/>
+      <circle cx="60" cy="3" r="1.5"/>
+      <circle cx="4" cy="9" r="1.5"/>
+      <circle cx="60" cy="9" r="1.5"/>
+      <circle cx="32" cy="3" r="1.5"/>
+      <circle cx="32" cy="9" r="1.5"/>
+    </g>
+    <!-- Diamond plate pattern -->
+    <g fill="#ABB2B9" opacity="0.3">
+      <rect x="10" y="4" width="3" height="3" rx="0.5" transform="rotate(45 11.5 5.5)"/>
+      <rect x="22" y="4" width="3" height="3" rx="0.5" transform="rotate(45 23.5 5.5)"/>
+      <rect x="38" y="4" width="3" height="3" rx="0.5" transform="rotate(45 39.5 5.5)"/>
+      <rect x="50" y="4" width="3" height="3" rx="0.5" transform="rotate(45 51.5 5.5)"/>
+    </g>
+    <!-- Shine -->
+    <rect x="0" y="1" width="64" height="2" fill="white" opacity="0.15" rx="1"/>
+  </g>
+</svg>

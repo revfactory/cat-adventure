@@ -215,7 +215,7 @@ export class Menu {
 
   async _loadTitleLogo(container, fallback) {
     try {
-      const resp = await fetch('src/assets/ui/ui-title-logo.svg');
+      const resp = await fetch('./assets/ui/ui-title-logo.svg');
       if (!resp.ok) return;
       const svgText = await resp.text();
       const parser = new DOMParser();

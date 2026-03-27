@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <g id="ally-white-trapped">
+    <!-- Stack of boxes -->
+    <rect x="4" y="22" width="40" height="24" rx="2" fill="#C9A96E" stroke="#A0844A" stroke-width="1"/>
+    <rect x="8" y="10" width="32" height="14" rx="2" fill="#D4B87A" stroke="#A0844A" stroke-width="1"/>
+    <rect x="14" y="2" width="20" height="10" rx="2" fill="#C9A96E" stroke="#A0844A" stroke-width="1"/>
+    <!-- Tape marks -->
+    <line x1="24" y1="10" x2="24" y2="24" stroke="#BDA05A" stroke-width="2"/>
+    <line x1="24" y1="2" x2="24" y2="12" stroke="#BDA05A" stroke-width="2"/>
+    <!-- Cat peeking from side gap -->
+    <g transform="translate(-2 12)">
+      <ellipse cx="10" cy="18" rx="7" ry="6.5" fill="#ECF0F1"/>
+      <!-- Ear -->
+      <polygon points="6,14 4,8 9,12" fill="#ECF0F1"/>
+      <!-- Scared blue eyes -->
+      <ellipse cx="8" cy="17" rx="2.8" ry="3.2" fill="white"/>
+      <ellipse cx="13" cy="17" rx="2.8" ry="3.2" fill="white"/>
+      <ellipse cx="8" cy="17.5" rx="2" ry="2.5" fill="#3498DB"/>
+      <ellipse cx="13" cy="17.5" rx="2" ry="2.5" fill="#3498DB"/>
+      <circle cx="8" cy="17.5" r="1.5" fill="#2C3E50"/>
+      <circle cx="13" cy="17.5" r="1.5" fill="#2C3E50"/>
+      <circle cx="8.5" cy="16.5" r="0.6" fill="white"/>
+      <circle cx="13.5" cy="16.5" r="0.6" fill="white"/>
+      <!-- Teary eyes -->
+      <path d="M5 19 Q4.5 21 5 22" fill="#5DADE2" opacity="0.4" stroke="#5DADE2" stroke-width="0.5"/>
+      <ellipse cx="10.5" cy="21" rx="1" ry="0.6" fill="#FF6B9D"/>
+    </g>
+    <!-- Paw sticking out from bottom -->
+    <ellipse cx="12" cy="44" rx="3" ry="1.5" fill="white"/>
+  </g>
+</svg>

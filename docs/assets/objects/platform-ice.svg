@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 12">
+  <defs>
+    <linearGradient id="ice-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D6EAF8"/>
+      <stop offset="100%" stop-color="#AED6F1"/>
+    </linearGradient>
+  </defs>
+  <g id="platform-ice">
+    <rect x="0" y="0" width="64" height="12" rx="2" fill="url(#ice-grad)" opacity="0.85"/>
+    <!-- Shine streaks -->
+    <g fill="white" opacity="0.5">
+      <rect x="4" y="2" width="12" height="1.5" rx="0.8"/>
+      <rect x="28" y="3" width="8" height="1" rx="0.5"/>
+      <rect x="48" y="2" width="10" height="1.5" rx="0.8"/>
+    </g>
+    <!-- Ice cracks -->
+    <g stroke="#85C1E9" stroke-width="0.5" opacity="0.4">
+      <path d="M20 0 L22 6 L18 12"/>
+      <path d="M44 0 L46 4 L42 8 L44 12"/>
+    </g>
+    <!-- Sparkles -->
+    <g fill="white" opacity="0.7">
+      <circle cx="10" cy="5" r="0.8"/>
+      <circle cx="36" cy="4" r="0.6"/>
+      <circle cx="54" cy="6" r="0.7"/>
+    </g>
+    <!-- Icicles hanging -->
+    <g fill="#AED6F1" opacity="0.7">
+      <polygon points="8,12 9,16 10,12"/>
+      <polygon points="24,12 25.5,18 27,12"/>
+      <polygon points="44,12 45,15 46,12"/>
+      <polygon points="56,12 57.5,17 59,12"/>
+    </g>
+  </g>
+</svg>

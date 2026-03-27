@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Near buildings -->
+  <g fill="#7F8C8D">
+    <rect x="-20" y="300" width="160" height="300"/>
+    <rect x="660" y="280" width="160" height="320"/>
+  </g>
+  <!-- Wall texture -->
+  <g stroke="#6C7A85" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="340" x2="140" y2="340"/>
+    <line x1="0" y1="380" x2="140" y2="380"/>
+    <line x1="0" y1="420" x2="140" y2="420"/>
+    <line x1="660" y1="320" x2="800" y2="320"/>
+    <line x1="660" y1="360" x2="800" y2="360"/>
+  </g>
+  <!-- Street lamp -->
+  <g>
+    <rect x="200" y="350" width="4" height="200" fill="#5D6D7E"/>
+    <rect x="194" y="346" width="16" height="6" rx="3" fill="#7F8C8D"/>
+    <ellipse cx="202" cy="350" rx="10" ry="6" fill="#F1C40F" opacity="0.3"/>
+    <circle cx="202" cy="350" r="4" fill="#F1C40F" opacity="0.6"/>
+  </g>
+  <!-- Trash bags -->
+  <g>
+    <ellipse cx="600" cy="540" rx="18" ry="15" fill="#2C3E50"/>
+    <ellipse cx="580" cy="545" rx="14" ry="12" fill="#34495E"/>
+    <path d="M592 528 Q600 522 608 528" fill="#1A252F"/>
+  </g>
+  <!-- Graffiti on wall -->
+  <g opacity="0.3">
+    <circle cx="80" cy="380" r="12" fill="none" stroke="#E74C3C" stroke-width="2"/>
+    <text x="74" y="385" font-size="8" fill="#3498DB" font-family="sans-serif">CAT</text>
+  </g>
+  <!-- Puddle -->
+  <ellipse cx="400" cy="570" rx="40" ry="6" fill="#5DADE2" opacity="0.2"/>
+  <!-- Stairs -->
+  <g fill="#95A5A6">
+    <rect x="660" y="520" width="60" height="10"/>
+    <rect x="670" y="510" width="50" height="10"/>
+    <rect x="680" y="500" width="40" height="10"/>
+  </g>
+</svg>

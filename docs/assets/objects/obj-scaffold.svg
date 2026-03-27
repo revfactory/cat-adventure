@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 80">
+  <g id="obj-scaffold">
+    <!-- Vertical poles -->
+    <rect x="2" y="0" width="4" height="80" fill="#7F8C8D"/>
+    <rect x="54" y="0" width="4" height="80" fill="#7F8C8D"/>
+    <!-- Horizontal planks -->
+    <rect x="0" y="0" width="60" height="5" rx="1" fill="#A0844A" stroke="#8B6914" stroke-width="0.5"/>
+    <rect x="0" y="25" width="60" height="5" rx="1" fill="#A0844A" stroke="#8B6914" stroke-width="0.5"/>
+    <rect x="0" y="50" width="60" height="5" rx="1" fill="#A0844A" stroke="#8B6914" stroke-width="0.5"/>
+    <rect x="0" y="75" width="60" height="5" rx="1" fill="#A0844A" stroke="#8B6914" stroke-width="0.5"/>
+    <!-- Cross braces -->
+    <g stroke="#95A5A6" stroke-width="1.5">
+      <line x1="6" y1="5" x2="54" y2="25"/>
+      <line x1="54" y1="5" x2="6" y2="25"/>
+      <line x1="6" y1="30" x2="54" y2="50"/>
+      <line x1="54" y1="30" x2="6" y2="50"/>
+      <line x1="6" y1="55" x2="54" y2="75"/>
+      <line x1="54" y1="55" x2="6" y2="75"/>
+    </g>
+    <!-- Bolts -->
+    <g fill="#5D6D7E">
+      <circle cx="4" cy="2.5" r="1.5"/>
+      <circle cx="56" cy="2.5" r="1.5"/>
+      <circle cx="4" cy="27.5" r="1.5"/>
+      <circle cx="56" cy="27.5" r="1.5"/>
+      <circle cx="4" cy="52.5" r="1.5"/>
+      <circle cx="56" cy="52.5" r="1.5"/>
+      <circle cx="4" cy="77.5" r="1.5"/>
+      <circle cx="56" cy="77.5" r="1.5"/>
+    </g>
+  </g>
+</svg>

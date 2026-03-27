@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32">
+  <g id="fx-shockwave">
+    <ellipse cx="32" cy="24" rx="28" ry="6" fill="none" stroke="#F1C40F" stroke-width="2" opacity="0.3"/>
+    <ellipse cx="32" cy="22" rx="22" ry="5" fill="none" stroke="#F39C12" stroke-width="2" opacity="0.5"/>
+    <ellipse cx="32" cy="20" rx="16" ry="4" fill="none" stroke="#E67E22" stroke-width="2.5" opacity="0.7"/>
+    <ellipse cx="32" cy="18" rx="8" ry="3" fill="#F1C40F" opacity="0.3"/>
+    <!-- Speed lines -->
+    <g stroke="#F1C40F" stroke-width="1" opacity="0.4">
+      <line x1="16" y1="8" x2="8" y2="4"/>
+      <line x1="48" y1="8" x2="56" y2="4"/>
+      <line x1="12" y1="16" x2="4" y2="14"/>
+      <line x1="52" y1="16" x2="60" y2="14"/>
+    </g>
+  </g>
+</svg>

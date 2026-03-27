@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Concrete floor -->
+  <rect x="0" y="550" width="800" height="50" fill="#ABB2B9"/>
+  <rect x="0" y="550" width="800" height="5" fill="#BDC3C7"/>
+  <!-- Safety barrier -->
+  <g>
+    <rect x="0" y="500" width="800" height="4" fill="#F1C40F"/>
+    <rect x="0" y="500" width="800" height="4" fill="#2C3E50" stroke-dasharray="20 20" opacity="0.4"/>
+    <rect x="0" y="530" width="800" height="4" fill="#F1C40F"/>
+    <rect x="0" y="530" width="800" height="4" fill="#2C3E50" stroke-dasharray="20 20" opacity="0.4"/>
+    <!-- Posts -->
+    <rect x="50" y="495" width="5" height="45" fill="#F1C40F"/>
+    <rect x="200" y="495" width="5" height="45" fill="#F1C40F"/>
+    <rect x="400" y="495" width="5" height="45" fill="#F1C40F"/>
+    <rect x="600" y="495" width="5" height="45" fill="#F1C40F"/>
+    <rect x="750" y="495" width="5" height="45" fill="#F1C40F"/>
+  </g>
+  <!-- Debris -->
+  <g fill="#ABB2B9" opacity="0.5">
+    <rect x="100" y="545" width="15" height="8" rx="1" transform="rotate(12 107 549)"/>
+    <rect x="300" y="548" width="10" height="5" rx="1"/>
+    <circle cx="500" cy="552" r="4"/>
+    <rect x="650" y="546" width="12" height="6" rx="1" transform="rotate(-8 656 549)"/>
+  </g>
+  <!-- Foreground pipe -->
+  <g>
+    <rect x="-20" y="420" width="100" height="16" rx="8" fill="#95A5A6"/>
+    <rect x="-20" y="418" width="10" height="20" rx="2" fill="#7F8C8D"/>
+    <rect x="70" y="418" width="10" height="20" rx="2" fill="#7F8C8D"/>
+  </g>
+  <!-- Sparks -->
+  <g fill="#F1C40F" opacity="0.6">
+    <circle cx="720" cy="380" r="1.5"/>
+    <circle cx="725" cy="375" r="1"/>
+    <circle cx="715" cy="378" r="1.2"/>
+    <circle cx="730" cy="382" r="0.8"/>
+  </g>
+</svg>

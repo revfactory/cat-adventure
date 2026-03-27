@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 16">
+  <g id="platform-ground">
+    <rect x="0" y="0" width="64" height="16" fill="#5D6D7E"/>
+    <rect x="0" y="0" width="64" height="4" fill="#7F8C8D"/>
+    <!-- Surface detail -->
+    <g stroke="#ABB2B9" stroke-width="0.5" opacity="0.4">
+      <line x1="8" y1="2" x2="12" y2="2"/>
+      <line x1="24" y1="1.5" x2="30" y2="1.5"/>
+      <line x1="44" y1="2.5" x2="50" y2="2.5"/>
+    </g>
+    <!-- Cracks -->
+    <g stroke="#4A5A6A" stroke-width="0.5" opacity="0.5">
+      <path d="M16 4 L18 10 L20 8"/>
+      <path d="M40 4 L38 12"/>
+      <path d="M52 4 L54 9"/>
+    </g>
+    <!-- Pebbles -->
+    <circle cx="10" cy="8" r="1.5" fill="#4A5A6A"/>
+    <circle cx="32" cy="10" r="2" fill="#4A5A6A"/>
+    <circle cx="55" cy="9" r="1" fill="#4A5A6A"/>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Trees -->
+  <g>
+    <!-- Tree 1 -->
+    <rect x="95" y="350" width="10" height="100" fill="#8B6914"/>
+    <ellipse cx="100" cy="330" rx="40" ry="50" fill="#27AE60"/>
+    <ellipse cx="90" cy="320" rx="30" ry="35" fill="#2ECC71"/>
+    <!-- Tree 2 -->
+    <rect x="345" y="320" width="12" height="130" fill="#8B6914"/>
+    <ellipse cx="350" cy="290" rx="50" ry="55" fill="#27AE60"/>
+    <ellipse cx="340" cy="280" rx="35" ry="40" fill="#2ECC71"/>
+    <!-- Tree 3 -->
+    <rect x="595" y="340" width="10" height="110" fill="#8B6914"/>
+    <ellipse cx="600" cy="320" rx="42" ry="48" fill="#27AE60"/>
+    <ellipse cx="610" cy="310" rx="30" ry="35" fill="#2ECC71"/>
+  </g>
+  <!-- Park bench -->
+  <g transform="translate(200 440)">
+    <rect x="0" y="0" width="60" height="4" rx="2" fill="#8B6914"/>
+    <rect x="0" y="8" width="60" height="4" rx="2" fill="#8B6914"/>
+    <rect x="5" y="4" width="4" height="20" fill="#6B4F10"/>
+    <rect x="51" y="4" width="4" height="20" fill="#6B4F10"/>
+    <rect x="0" y="-8" width="4" height="12" rx="1" fill="#6B4F10"/>
+    <rect x="56" y="-8" width="4" height="12" rx="1" fill="#6B4F10"/>
+  </g>
+  <!-- Bushes -->
+  <g fill="#27AE60">
+    <ellipse cx="160" cy="470" rx="25" ry="15"/>
+    <ellipse cx="440" cy="480" rx="20" ry="12"/>
+    <ellipse cx="700" cy="470" rx="30" ry="18"/>
+  </g>
+  <!-- Flowers -->
+  <g>
+    <circle cx="170" cy="465" r="3" fill="#E74C3C"/>
+    <circle cx="155" cy="468" r="2.5" fill="#F1C40F"/>
+    <circle cx="445" cy="476" r="2.5" fill="#9B59B6"/>
+    <circle cx="435" cy="478" r="3" fill="#E74C3C"/>
+    <circle cx="710" cy="464" r="2.5" fill="#F1C40F"/>
+    <circle cx="695" cy="467" r="3" fill="#3498DB"/>
+  </g>
+  <!-- Path -->
+  <path d="M0 520 Q200 510 400 520 Q600 530 800 520" fill="#D4B87A" opacity="0.3"/>
+</svg>

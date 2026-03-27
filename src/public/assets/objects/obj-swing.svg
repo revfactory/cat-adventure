@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <g id="obj-swing">
+    <!-- Frame -->
+    <line x1="10" y1="0" x2="20" y2="50" stroke="#7F8C8D" stroke-width="3"/>
+    <line x1="50" y1="0" x2="40" y2="50" stroke="#7F8C8D" stroke-width="3"/>
+    <!-- Top bar -->
+    <line x1="8" y1="2" x2="52" y2="2" stroke="#95A5A6" stroke-width="3" stroke-linecap="round"/>
+    <!-- Chains -->
+    <g stroke="#BDC3C7" stroke-width="1.5" fill="none">
+      <path d="M24 2 L22 10 L24 18 L22 26 L24 34 L22 40"/>
+      <path d="M36 2 L38 10 L36 18 L38 26 L36 34 L38 40"/>
+    </g>
+    <!-- Seat -->
+    <rect x="18" y="40" width="24" height="4" rx="2" fill="#8B6914" stroke="#6B4F10" stroke-width="0.8"/>
+    <!-- Ground anchors -->
+    <rect x="16" y="48" width="8" height="4" rx="1" fill="#5D6D7E"/>
+    <rect x="36" y="48" width="8" height="4" rx="1" fill="#5D6D7E"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Far city skyline -->
+  <g fill="#95A5A6" opacity="0.4">
+    <rect x="0" y="250" width="60" height="350"/>
+    <rect x="80" y="220" width="50" height="380"/>
+    <rect x="150" y="260" width="70" height="340"/>
+    <rect x="260" y="200" width="40" height="400"/>
+    <rect x="320" y="240" width="80" height="360"/>
+    <rect x="440" y="230" width="50" height="370"/>
+    <rect x="520" y="270" width="60" height="330"/>
+    <rect x="620" y="210" width="45" height="390"/>
+    <rect x="700" y="250" width="100" height="350"/>
+  </g>
+  <!-- Distant signs -->
+  <g fill="#E74C3C" opacity="0.2">
+    <rect x="90" y="225" width="30" height="10" rx="2"/>
+    <rect x="270" y="205" width="25" height="8" rx="2"/>
+  </g>
+</svg>

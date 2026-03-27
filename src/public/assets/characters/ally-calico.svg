@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <g id="ally-calico">
+    <!-- Tail (short) -->
+    <path d="M20 32 Q16 30 14 28 Q12 26 14 24" fill="none" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+    <!-- Back legs (stocky) -->
+    <rect x="16" y="35" width="5.5" height="7" rx="2.5" fill="#FF8C42"/>
+    <rect x="26.5" y="35" width="5.5" height="7" rx="2.5" fill="#2C3E50"/>
+    <ellipse cx="18.8" cy="42.5" rx="3.2" ry="1.5" fill="#FFF5E6"/>
+    <ellipse cx="29.2" cy="42.5" rx="3.2" ry="1.5" fill="#ECF0F1"/>
+    <!-- Body (large, stocky - 1.2x) -->
+    <ellipse cx="24" cy="30" rx="11" ry="7.5" fill="#ECF0F1"/>
+    <!-- Patchwork pattern -->
+    <ellipse cx="19" cy="28" rx="5" ry="4" fill="#FF8C42" opacity="0.9"/>
+    <ellipse cx="30" cy="29" rx="4.5" ry="3.5" fill="#2C3E50" opacity="0.9"/>
+    <ellipse cx="24" cy="32" rx="6.5" ry="4" fill="#FFF5E6"/>
+    <!-- Front legs -->
+    <rect x="16.5" y="34" width="5" height="7.5" rx="2.5" fill="#ECF0F1"/>
+    <rect x="26.5" y="34" width="5" height="7.5" rx="2.5" fill="#FF8C42"/>
+    <ellipse cx="19" cy="42" rx="3" ry="1.5" fill="#FFF5E6"/>
+    <ellipse cx="29" cy="42" rx="3" ry="1.5" fill="#FFF5E6"/>
+    <!-- Head -->
+    <g id="cat-head">
+      <ellipse cx="24" cy="14" rx="11.5" ry="10.5" fill="#ECF0F1"/>
+      <!-- Patchwork on face -->
+      <ellipse cx="18" cy="11" rx="5" ry="4" fill="#FF8C42" opacity="0.85"/>
+      <ellipse cx="31" cy="12" rx="4" ry="3.5" fill="#2C3E50" opacity="0.85"/>
+      <!-- Ears -->
+      <polygon points="14,8 11,1 17,5" fill="#FF8C42"/>
+      <polygon points="34,8 37,1 31,5" fill="#2C3E50"/>
+      <polygon points="14.5,7.5 12,3 16.5,5.5" fill="#FFB89A"/>
+      <polygon points="33.5,7.5 36,3 31.5,5.5" fill="#34495E"/>
+      <!-- Eyes (amber) -->
+      <ellipse cx="19" cy="13" rx="3.5" ry="3.8" fill="white"/>
+      <ellipse cx="29" cy="13" rx="3.5" ry="3.8" fill="white"/>
+      <ellipse cx="19" cy="13" rx="2.8" ry="3" fill="#E67E22"/>
+      <ellipse cx="29" cy="13" rx="2.8" ry="3" fill="#E67E22"/>
+      <ellipse cx="19.5" cy="12.5" rx="1.5" ry="2" fill="#2C3E50"/>
+      <ellipse cx="29.5" cy="12.5" rx="1.5" ry="2" fill="#2C3E50"/>
+      <circle cx="20.3" cy="11.5" r="0.8" fill="white"/>
+      <circle cx="30.3" cy="11.5" r="0.8" fill="white"/>
+      <!-- Nose -->
+      <ellipse cx="24" cy="17" rx="1.5" ry="1" fill="#FF6B9D"/>
+      <path d="M22.5 18.5 Q24 19.5 25.5 18.5" fill="none" stroke="#BDC3C7" stroke-width="0.8"/>
+      <!-- Whiskers -->
+      <g stroke="#BDC3C7" stroke-width="0.5" opacity="0.6">
+        <line x1="12" y1="15" x2="17" y2="16"/>
+        <line x1="12" y1="17" x2="17" y2="17"/>
+        <line x1="31" y1="16" x2="36" y2="15"/>
+        <line x1="31" y1="17" x2="36" y2="17"/>
+      </g>
+    </g>
+  </g>
+</svg>

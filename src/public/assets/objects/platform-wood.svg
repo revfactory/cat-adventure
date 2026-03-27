@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 12">
+  <g id="platform-wood">
+    <rect x="0" y="0" width="64" height="12" rx="2" fill="#8B6914"/>
+    <rect x="0" y="0" width="64" height="3" rx="2" fill="#A0844A"/>
+    <!-- Wood grain -->
+    <g stroke="#7A5B10" stroke-width="0.5" opacity="0.4">
+      <path d="M4 5 Q16 3 28 5 Q40 7 52 5 Q58 4 64 5"/>
+      <path d="M0 8 Q12 6 24 8 Q36 10 48 8 Q56 7 64 8"/>
+    </g>
+    <!-- Nails -->
+    <circle cx="4" cy="6" r="1" fill="#BDC3C7"/>
+    <circle cx="60" cy="6" r="1" fill="#BDC3C7"/>
+    <circle cx="32" cy="6" r="1" fill="#BDC3C7"/>
+    <!-- Plank lines -->
+    <line x1="20" y1="0" x2="20" y2="12" stroke="#7A5B10" stroke-width="0.8" opacity="0.3"/>
+    <line x1="44" y1="0" x2="44" y2="12" stroke="#7A5B10" stroke-width="0.8" opacity="0.3"/>
+  </g>
+</svg>

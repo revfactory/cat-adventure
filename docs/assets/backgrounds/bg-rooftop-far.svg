@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- City skyline silhouette -->
+  <g fill="#2C3E50" opacity="0.6">
+    <rect x="0" y="380" width="50" height="220"/>
+    <rect x="60" y="350" width="40" height="250"/>
+    <rect x="110" y="400" width="60" height="200"/>
+    <rect x="190" y="360" width="35" height="240"/>
+    <rect x="240" y="390" width="50" height="210"/>
+    <rect x="310" y="340" width="30" height="260"/>
+    <rect x="360" y="420" width="60" height="180"/>
+    <rect x="440" y="370" width="45" height="230"/>
+    <rect x="500" y="410" width="55" height="190"/>
+    <rect x="570" y="360" width="40" height="240"/>
+    <rect x="620" y="400" width="70" height="200"/>
+    <rect x="710" y="370" width="45" height="230"/>
+    <rect x="770" y="350" width="40" height="250"/>
+  </g>
+  <!-- City lights -->
+  <g fill="#F1C40F" opacity="0.3">
+    <rect x="20" y="400" width="3" height="3"/>
+    <rect x="30" y="410" width="3" height="3"/>
+    <rect x="75" y="370" width="3" height="3"/>
+    <rect x="80" y="390" width="3" height="3"/>
+    <rect x="130" y="420" width="3" height="3"/>
+    <rect x="200" y="380" width="3" height="3"/>
+    <rect x="260" y="410" width="3" height="3"/>
+    <rect x="325" y="360" width="3" height="3"/>
+    <rect x="380" y="440" width="3" height="3"/>
+    <rect x="460" y="390" width="3" height="3"/>
+    <rect x="520" y="430" width="3" height="3"/>
+    <rect x="590" y="380" width="3" height="3"/>
+    <rect x="650" y="420" width="3" height="3"/>
+    <rect x="730" y="390" width="3" height="3"/>
+  </g>
+</svg>

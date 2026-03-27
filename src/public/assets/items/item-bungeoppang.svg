@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <g id="item-bungeoppang">
+    <!-- Fish-shaped bread -->
+    <ellipse cx="16" cy="16" rx="11" ry="7" fill="#D4A017"/>
+    <ellipse cx="16" cy="17" rx="8" ry="4.5" fill="#C49012"/>
+    <!-- Tail -->
+    <polygon points="5,16 1,11 1,21" fill="#D4A017"/>
+    <line x1="2" y1="13" x2="5" y2="16" stroke="#B8860B" stroke-width="0.5"/>
+    <line x1="2" y1="19" x2="5" y2="16" stroke="#B8860B" stroke-width="0.5"/>
+    <!-- Fish pattern lines -->
+    <g stroke="#B8860B" stroke-width="0.5" opacity="0.5">
+      <path d="M10 13 Q12 11 14 13"/>
+      <path d="M14 13 Q16 11 18 13"/>
+      <path d="M18 13 Q20 11 22 13"/>
+      <path d="M10 16 Q12 14 14 16"/>
+      <path d="M14 16 Q16 14 18 16"/>
+      <path d="M18 16 Q20 14 22 16"/>
+    </g>
+    <!-- Eye spot -->
+    <circle cx="23" cy="14" r="1.5" fill="#B8860B"/>
+    <!-- Steam (hot!) -->
+    <g opacity="0.4" stroke="white" stroke-width="1" fill="none" stroke-linecap="round">
+      <path d="M12 8 Q13 5 12 3"/>
+      <path d="M16 7 Q17 4 16 2"/>
+      <path d="M20 8 Q21 5 20 3"/>
+    </g>
+    <!-- Golden shine -->
+    <ellipse cx="14" cy="14" rx="3" ry="1.5" fill="white" opacity="0.15"/>
+  </g>
+</svg>
